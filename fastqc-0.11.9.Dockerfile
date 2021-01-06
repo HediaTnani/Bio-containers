@@ -2,6 +2,11 @@
 ##########################fastqc-0.11.9###########################
 FROM    ubuntu:latest
 MAINTAINER Hédia Tnani <hediatnani0@gmail.com>
+#########################
+# Software: fastqc
+# Software Version: 0.11.9
+# Software Websit: http://www.bioinformatics.babraham.ac.uk/projects/fastqc
+#########################
 
 RUN     cd /tmp \
 &&      apt-get update \
