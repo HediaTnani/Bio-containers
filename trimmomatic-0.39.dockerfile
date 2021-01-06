@@ -2,7 +2,12 @@ FROM ubuntu:latest
 
 MAINTAINER Hédia Tnani "hediatnani0@gmail.com"
 
-################Trimmomatic-0.39##############
+#########################
+# Software: trimmomatic
+# Software Version: 0.39
+# Software Websit: http://www.usadellab.org/cms/?page=trimmomatic
+# Description: A flexible read trimming tool for Illumina NGS data
+#########################
 
 ## Install Trimmomatic
 RUN     cd /tmp \
