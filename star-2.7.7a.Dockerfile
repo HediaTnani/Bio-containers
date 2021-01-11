@@ -1,5 +1,11 @@
 FROM      alpine
+MAINTAINER Hédia Tnani "hediatnani0@gmail.com"
 
+#########################
+# Software: star
+# Software Version: 2.7.7a
+# Software Websit: https://github.com/alexdobin/STAR/archive/2.7.7a.tar.gz
+#########################
 RUN         cd /tmp \
 &&      wget https://github.com/alexdobin/STAR/archive/2.7.7a.tar.gz \
 &&      tar xf 2.7.7a.tar.gz \
